@@ -2,9 +2,12 @@ nav {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px black solid;
-    background-color: azure;
+    background-color: lightblue;
     position: fixed;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -21,6 +24,14 @@ body {
     margin: 20px;
 }
 
-nav h1 {
-    margin: 20px;
+.container a {
+    text-decoration: none;
+    color: black
+}
+
+.main {
+    padding-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: pink;
+    height: 100svh;
 }
