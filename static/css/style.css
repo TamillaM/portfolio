@@ -31,13 +31,21 @@ body {
 
 .main {
     padding-top: 100px;
+    padding-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: pink;
     height: 100svh;
+
 }
 
 img {
     width: 150px;
     height: 150px;
     border-radius: 10px;
+    background-position: right;
+
+}
+
+nav h1 {
+    padding-left: 20px;
 }
