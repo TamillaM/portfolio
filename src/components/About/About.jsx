@@ -22,7 +22,7 @@ const About = () => {
           <div className='app__about-box'>
             <img src={education} alt="education" style={{cursor:"pointer"}} />
             <h5 style={{fontSize:"20px"}}>Education</h5>
-            <p style={{fontSize:"15px"}}>Code Academy: Frontend Development</p>
+            <p style={{fontSize:"15px"}}>Codecademy: Frontend Development</p>
           </div>
         </div>
         <div className='app__about-text'>
