@@ -3,7 +3,7 @@ import React from 'react'
 import git from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import me from '../../assets/profile.png'
-// import cvpdf from '../../assets/Ali-Mammadov-CV.pdf'
+import cvpdf from '../../assets/Tamilla_Mammadova_-_Front_end_Developer.pdf'
 import './Header.css'
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
             <h2 style={{color:"grey"}}>Frontend Developer</h2>
           </div>
           <div className='app__header-btn'>
-            <a href={"cvpdf"} download={"Ali-Mammadov-CV"} target='_blank' rel='noreferrer'><button type="button">Download CV</button></a>
+            <a href={cvpdf} download={"Tamilla-Mammadova-CV"} target='_blank' rel='noreferrer'><button type="button">Download CV</button></a>
             <a href="#contact"><button type="button" >Contact Info</button></a>
           </div>
           <div className='app__header-links'>
