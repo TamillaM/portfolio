@@ -23,9 +23,10 @@
     font-weight: 400;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:540px) {
     .app__footer-nav{
         flex-direction: column;
+        margin-bottom: 2rem;
     }
     .cr{
         padding-bottom: 2rem;

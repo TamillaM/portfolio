@@ -7,13 +7,13 @@ import { useState } from 'react'
 const Navbar = () => {
   const [toggle, setToggle] = useState(true)
 
-
   const Menu = () => {
     return(
       <>
         <h3><a href="#about" onClick={()=>setToggle(true)}>About</a></h3>
         <h3><a href="#experience" onClick={()=>setToggle(true)}>Experience</a></h3>
         <h3><a href="#projects" onClick={()=>setToggle(true)}>Projects</a></h3>
+        <h3><a href="#certificate" onClick={()=>setToggle(true)}>Certificate</a></h3>
         <h3><a href="#contact" onClick={()=>setToggle(true)}>Contact</a></h3>
       </>
     )

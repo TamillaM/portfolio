@@ -8,6 +8,7 @@ const Footer = () => {
         <h3><a href="#about">About</a></h3>
         <h3><a href="#experience">Experience</a></h3>
         <h3><a href="#projects">Projects</a></h3>
+        <h3><a href="#certificate">Certificate</a></h3>
       </div>
       <p className='cr'>Copyright &#169; 2024 <a href='#nav'>Tamilla Mammadova</a></p>
     </div>
