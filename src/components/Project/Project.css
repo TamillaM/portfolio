@@ -18,6 +18,7 @@
 .app__project img{
     border-radius: 10px;
     width: 400px;
+    border: 1px solid rgb(124, 124, 124);
 }
 
 .app__project-links{
